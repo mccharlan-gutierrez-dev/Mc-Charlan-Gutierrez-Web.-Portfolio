@@ -1,0 +1,9 @@
+h1{
+    border-color: black;
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 25%;
+    padding: 25px;
+    text-align: center;
+}
