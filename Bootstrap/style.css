@@ -246,13 +246,13 @@ footer {
 }
 
 /* .about-left */
-.section-title{
+/* .section-title{
 
     color:#00060e;
     font-size:14px;
     font-weight:600;
     letter-spacing:1px;
-}
+} */
 
 .about-left h2{
 
@@ -308,13 +308,13 @@ footer {
     margin:auto;
 }
 
-.section-title{
+/* .section-title{
     color:#010812;
-    font-size:13px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    
     font-weight: bold;
     letter-spacing:1px;
-}
+} */
 
 .skills h2{
     color:#0b0000;
@@ -378,19 +378,21 @@ footer {
 .python{color:#ffd43b;}
 .github{color:#130101;}
 
+
 .progress{
     width:100%;
-    height:7px;
-    background:#fafbfd;
-    border-color: 1px solid black;
+    height:8px;
+    /* background:#23364d; */
     border-radius:50px;
     overflow:hidden;
 }
 
 .progress-bar{
+    width:0;
     height:100%;
-    background:#42260d;
+    background:#c13004b2;
     border-radius:50px;
+    transition:width 1.8s ease-in-out;
 }
 
 /* Responsive */
