@@ -1,6 +1,8 @@
 const words = [
-    "Web Developer!",
+    "Front-end Developer!",
+    "Back-end Developer!",
     "Game Developer!",
+    "Programmer!",
     "UI/UX Designer!"
 ];
 

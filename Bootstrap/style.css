@@ -94,7 +94,7 @@ body {
 
  .typing-effect{
     display: inline-block;
-    width: 18ch;
+    width: 25ch;
     /* min-height: 70px; */
     font-family: monospace;
     color: #f1bf26;
@@ -164,7 +164,7 @@ body {
 
 .circle{
     width: 250px;
-    height: 350px;
+    height: 400px;
     /* all corner */
     /* border-radius: 30px;  */
     /* first value top left and bottom rigth second value top left and bottom rigth */
