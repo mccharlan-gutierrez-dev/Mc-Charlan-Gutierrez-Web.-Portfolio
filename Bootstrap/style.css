@@ -73,19 +73,19 @@ html {
 }
 
 .primary{
-    background:#4f3702;
+    background:#e19c05;
     /* border:1px solid white; */
     color:white;
 }
 
 .secondary{
-     /* background:#140e01b3; */
-    border:1px solid white;
-    color:white;
+     background:#dad6ceb3;
+    /* border:1px solid white; */
+    color:rgb(20, 1, 1);
 }
 
 /* home name type effect animation */
-.typing-effect {
+/* .typing-effect {
    font-family: monospace;
    color: #f1bf26;
     white-space: nowrap;
@@ -93,6 +93,12 @@ html {
     border-right: 3px solid #fff;
     display: inline-block;
     animation: blink .75s step-end infinite;
+     min-width: 18ch;
+}
+.role{
+    display: inline-block;
+    min-width: 18ch;
+    border-right: 3px solid #f6b400;
 }
 @keyframes blink{
     from,to{
@@ -100,6 +106,26 @@ html {
     }
     50%{
         border-color: white;
+    }
+} */
+ .typing-effect{
+    display: inline-block;
+    width: 18ch;
+    /* min-height: 70px; */
+    font-family: monospace;
+    color: #f1bf26;
+}
+
+.role::after{
+    content: "|";
+    color: #f1bf26;
+    margin-left: 2px;
+    animation: blink .75s step-end infinite;
+}
+
+@keyframes blink{
+    50%{
+        opacity: 0;
     }
 }
 .typing-effect2{
@@ -1321,18 +1347,25 @@ footer {
     gap: 50px;
 }
 
-.container-footer h3,
+.container-footer h3{
+
+}
 .container-footer h4 {
     color: rgb(250, 246, 246);
     margin-bottom: 15px;
-    justify-content: center;
+    
+     text-align: center;
    
 }
 
-.container-footer p,
-.container-footer a {
-    color: #b8c1cc;
+.container-footer p{
+     color: #f3f6f9;
     text-decoration: none;
+}
+.container-footer a {
+    color: #f3f6f9;
+    text-decoration: none;
+    text-align: center;
 }
 
 .container-footer ul {
@@ -1344,6 +1377,7 @@ footer {
 .container-footer li {
     margin: 10px 0;
    justify-content: center;
+   text-align: center;
 }
 
 .container-footer a:hover {
@@ -1351,7 +1385,7 @@ footer {
 }
 
 .container-footer .socials {
-      display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 18px;
@@ -1374,7 +1408,7 @@ footer {
 .socials a:hover {
     background: #e19c05;
     color: white;
-    transform: translateY(-3px);
+    /* transform: translateY(-3px); */
 } 
 /* =========================
    Tablet
