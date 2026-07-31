@@ -1198,14 +1198,15 @@ footer{
 .css{color:#2196F3;}
 .js{color:#F7DF1E;}
 .react{color:#61DBFB;}
-.php{color:#777BB4;}
+.devicon-php-plain {color:#4e58de;}
 .laravel{color:#FF2D20;}
 .mysql{color:#00BFFF;}
 .java{color:#EA2D2E;}
 .python{color:#FFD43B;}
 .github{color:#fff;}
-.vite{
-    color:#646CFF;
+.devicon-figma-plain {color:#3909d5;}
+.devicon-vitejs-plain{
+    color:#7302fd;
     
 }
 
@@ -1213,6 +1214,7 @@ footer{
     color:#FF6C37;
    
 }
+
 
 
 /* Animation */
