@@ -214,101 +214,105 @@ body {
     
 }
 
-/* ===================================
-   Mobile (768px and below)
-=================================== */
-@media (max-width: 768px) {
+/* ==========================
+   Tablet (991px and below)
+========================== */
+@media (max-width: 991px) {
 
     .hero{
-        padding: 60px 0;
+        padding: 80px 0;
     }
 
-    /* Image first */
     .hero-image{
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
     .circle{
         width: 220px;
-        height: 220px;
-    }
-
-    .badge{
-        font-size: 11px;
-    }
-
-    .home h4{
-        font-size: 24px;
+        height: 300px;
     }
 
     .typing-effect{
-        font-size: 28px;
-    }
-
-    .home p{
-        font-size: 15px;
-        line-height: 1.7;
+        font-size: 2.5rem;
     }
 
     .buttons{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 15px;
-        align-items: center;
-        margin-top: 25px;
-    }
-
-    .buttons .btn{
-        width: 100%;
-        max-width: 280px;
     }
 
     .socials{
         justify-content: center;
         margin-top: 25px;
+    }
+}
+
+/* ==========================
+   Mobile (767px and below)
+========================== */
+@media (max-width: 767px) {
+
+    .hero{
+        padding: 100px 0 60px;
+        text-align: center;
+    }
+
+    .hero .row{
+        flex-direction: column;
+    }
+
+    .hero-image{
+        margin-bottom: 35px;
+    }
+
+    .circle{
+        width: 220px;
+        height: 290px;
+    }
+
+    .badge{
+        margin-bottom: 15px;
+    }
+
+    .hero h4{
+        font-size: 1.8rem;
+    }
+
+    .typing-effect{
+        font-size: 2.2rem;
+        width: 100%;
+    }
+
+    .home p{
+        font-size: 16px;
+        line-height: 1.8;
+        margin: 20px 0;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         gap: 15px;
+    }
+
+    .buttons .btn{
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .socials{
+        justify-content: center;
+        margin-top: 25px;
+        flex-wrap: wrap;
     }
 
     .socials a{
         width: 45px;
         height: 45px;
     }
-
 }
-
-/* ===================================
-   Tablet (991px and below)
-=================================== */
-@media (max-width: 991px) {
-
-    .hero{
-        padding: 70px 0;
-    }
-
-    .home .row{
-        row-gap: 50px;
-    }
-
-    .circle{
-        width: 260px;
-        height: 260px;
-    }
-
-    .home{
-        text-align: center;
-    }
-
-    .buttons{
-        justify-content: center;
-    }
-
-    .socials{
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-}
-
 /* .socials a:hover{
     background: #4f3702;
 } */
