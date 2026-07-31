@@ -6,10 +6,10 @@ body {
     padding: 0;
     min-height: 100%;
     overflow-x: hidden; /* Removes left-right scrollbar */
+    scroll-behavior: smooth;
+    scroll-padding-top: 30px;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 
 .hero {
   min-height: 100vh;
@@ -150,15 +150,20 @@ html {
 }
 
 .circle{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;              /* keeps image inside circle */
-    /* border: 2px solid #4f3702; */
+    width: 250px;
+    height: 350px;
+    /* all corner */
+    /* border-radius: 30px;  */
+    /* first value top left and bottom rigth second value top left and bottom rigth */
+    border-radius: 0% 0%; 
+    /* keeps image inside circle  */
+    overflow: hidden;              
+    border: 2px solid #4f3702;
     background-color: #43423e;
-    box-shadow:
+    /* box-shadow:
         0 0 10px #dad8d2,
-        0 0 20px #eae8e4;
+        0 0 20px #eae8e4; */
+        border-color: #100000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,8 +172,8 @@ html {
 .circle img{
     width: 100%;
     height: 100%;
-    object-fit: contain;           /* fills circle without distortion */
-    border-radius: 50%;
+    object-fit: cover;     /* fills circle without distortion */
+    /* border-radius: 50%; */
 }
 
 /* home available work */
