@@ -22,6 +22,12 @@ body {
   color: white;
   
 }
+.navbar-nav .nav-link{
+    color: #ae9595 ;
+}
+.navbar a:hover{
+    color: #f1bf26;
+}
 
 .section-title {
   font-weight: bold;
